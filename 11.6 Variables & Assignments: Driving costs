@@ -1,0 +1,30 @@
+// ZyBooks CS 110
+// 11.6 LAB: Variables/Assignments: Driving costs
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 20.0 3.1599
+
+float carMilesPerGallon
+float gasDollarsPerGallon
+float gasDollarsPerMile
+float gasCost10
+float gasCost50
+float gasCost400
+
+carMilesPerGallon = Get next input
+gasDollarsPerGallon = Get next input
+
+gasDollarsPerMile = gasDollarsPerGallon / carMilesPerGallon
+
+gasCost10 = 10 * gasDollarsPerMile
+gasCost50 = 50 * gasDollarsPerMile
+gasCost400 = 400 * gasDollarsPerMile
+
+Put gasCost10 to output with 2 decimal places
+Put " " to output
+
+Put gasCost50 to output with 2 decimal places
+Put " " to output
+
+Put gasCost400 to output with 2 decimal places
