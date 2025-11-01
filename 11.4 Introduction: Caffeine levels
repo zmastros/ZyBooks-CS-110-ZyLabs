@@ -1,0 +1,29 @@
+// ZyBooks CS 110
+// 11.4 LAB: Introduction: Caffeine levels
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 100
+
+float caffeineAmt
+float sixHour
+float twelveHour
+float eighteenHour
+
+caffeineAmt = Get next input
+
+sixHour = caffeineAmt / 2
+twelveHour = sixHour / 2
+eighteenHour = twelveHour / 2
+
+Put "After 6 hours: " to output
+Put sixHour to output
+Put " mg\n" to output
+
+Put "After 12 hours: " to output
+Put twelveHour to output
+Put " mg\n" to output
+
+Put "After 18 hours: " to output
+Put eighteenHour to output
+Put " mg" to output
