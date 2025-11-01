@@ -1,0 +1,36 @@
+// ZyBooks CS 110
+// 11.8 LAB: Variables/Assignments: Using math functions
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 5.0 2.5 1.5
+
+float x
+float y
+float z
+
+float xResult1
+float xResult2
+float xAbsoluteValue
+float xSquareRoot
+
+x = Get next input
+y = Get next input
+z = Get next input
+
+xResult1 = RaiseToPower(x, y)
+Put xResult1 to output with 5 decimal places
+Put " " to output
+
+xResult2 = RaiseToPower(y, z)
+xResult2 = RaiseToPower(x, xResult2)
+Put xResult2 to output with 5 decimal places
+Put " " to output
+
+xAbsoluteValue = AbsoluteValue(x)
+Put xAbsoluteValue to output with 5 decimal places
+Put " " to output
+
+xSquareRoot = SquareRoot(x * y)
+xSquareRoot = RaiseToPower(xSquareRoot, z)
+Put xSquareRoot to output with 5 decimal places
