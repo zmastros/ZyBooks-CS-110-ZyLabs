@@ -1,0 +1,8 @@
+// ZyBooks CS 110
+// 11.2 LAB: Introduction: No parking sign
+// Instructions: Write a program that outputs a formatted "No parking" sign. Note the first line has two leading spaces.
+// Coded in Coral
+// Written by zmastros / GitHub
+
+Put "  NO PARKING\n" to output
+Put "1:00 - 5:00 a.m." to output
