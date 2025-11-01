@@ -1,0 +1,60 @@
+// ZyBooks CS 110
+// 11.7 LAB: Variables/Assignments: Simple statistics
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 10 20 5
+
+integer a
+integer b
+integer c
+
+float a2
+float b2
+float c2
+
+integer sum
+integer average
+integer product
+
+float sum2
+float average2
+float product2
+
+integer i
+
+sum = 0
+i = 0
+
+a = Get next input
+b = Get next input
+c = Get next input
+
+while i < 3
+   sum = a + b + c
+   i = i + 1
+   
+average = sum / 3
+Put average to output
+Put " " to output
+
+product = a * b * c
+Put product to output
+Put "\n" to output
+
+i = 0
+
+a2 = a
+b2 = b
+c2 = c
+
+while i < 3
+   sum2 = a2 + b2 + c2
+   i = i + 1
+   
+average2 = sum2 / 3
+Put average2 to output with 5 decimal places
+Put " " to output
+
+product2 = a2 * b2 * c2
+Put product2 to output with 5 decimal places
