@@ -1,0 +1,21 @@
+// ZyBooks CS 110
+// 11.5 LAB: Variables/Assignments: Divide by x
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 2000 2
+
+integer userNum
+integer x
+integer i
+
+userNum = Get next input
+x = Get next input
+
+i = 0
+while i < 4
+   userNum = userNum / x
+   Put userNum to output
+   if i < 3
+      Put " " to output
+   i = i + 1
