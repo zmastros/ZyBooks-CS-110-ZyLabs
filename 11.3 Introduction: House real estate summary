@@ -1,0 +1,28 @@
+// ZyBooks CS 110
+// 11.3 LAB: Introduction: House real estate summary
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 200000 210000
+
+integer currPrice
+integer lastMonthPrice
+float estMortgage
+integer change
+
+currPrice = Get next input
+lastMonthPrice = Get next input
+change = currPrice - lastMonthPrice
+estMortgage = (currPrice * 0.045) / 12
+
+Put "This house is $" to output
+Put currPrice to output
+Put ". " to output
+
+Put "The change is $" to output
+Put change to output
+Put " since last month.\n" to output
+
+Put "The estimated monthly mortgage is $" to output
+Put estMortgage to output with 2 decimal places
+Put "." to output
