@@ -1,0 +1,32 @@
+// ZyBooks CS 110
+// 11.9 LAB: Variables/Assignments: Musical note frequencies
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 440.0
+
+float r
+float f0
+float f1
+float f2
+float f3
+float f4
+
+f0 = Get next input
+
+r = RaiseToPower(2, 1.0 / 12.0)
+
+f1 = f0 * r
+f2 = f1 * r
+f3 = f2 * r
+f4 = f3 * r
+
+Put f0 to output with 5 decimal places
+Put " " to output
+Put f1 to output with 5 decimal places
+Put " " to output
+Put f2 to output with 5 decimal places
+Put " " to output
+Put f3 to output with 5 decimal places
+Put " " to output
+Put f4 to output with 5 decimal places
