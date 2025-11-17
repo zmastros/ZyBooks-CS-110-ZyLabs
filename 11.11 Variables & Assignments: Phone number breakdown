@@ -1,0 +1,18 @@
+// ZyBooks CS 110
+// 11.11 LAB: Variables/Assignments: Phone number breakdown
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 5551212
+
+integer phone
+integer prefix
+integer line
+
+phone = Get next input
+prefix = phone / 10000
+line = phone % 10000
+
+Put prefix to output
+Put "-" to output
+Put line to output
