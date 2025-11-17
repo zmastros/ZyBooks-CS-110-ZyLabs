@@ -1,0 +1,49 @@
+// ZyBooks CS 110
+// 11.11 LAB: Variables/Assignments: Branches - Largest number
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 7 15 3
+
+integer firstNumber
+integer secondNumber
+integer thirdNumber
+
+integer largestNumber
+
+firstNumber = Get next input
+secondNumber = Get next input
+thirdNumber = Get next input
+
+if firstNumber > secondNumber
+   largestNumber = firstNumber
+   if largestNumber > thirdNumber
+      Put largestNumber to output
+   elseif thirdNumber > largestNumber
+      largestNumber = thirdNumber
+      Put largestNumber to output
+elseif secondNumber > firstNumber
+   largestNumber = secondNumber
+   if largestNumber > thirdNumber
+      Put largestNumber to output
+   elseif thirdNumber > largestNumber
+      largestNumber = thirdNumber
+      Put largestNumber to output
+elseif firstNumber == secondNumber
+   largestNumber = firstNumber
+   if largestNumber > thirdNumber
+      Put largestNumber to output
+   elseif thirdNumber > largestNumber
+      largestNumber = thirdNumber
+      Put largestNumber to output
+   else
+      Put largestNumber to output
+elseif secondNumber == firstNumber
+   largestNumber = secondNumber
+   if largestNumber > thirdNumber
+      Put largestNumber to output
+   elseif thirdNumber > largestNumber
+      largestNumber = thirdNumber
+      Put largestNumber to output
+   else
+      Put largestNumber to output
