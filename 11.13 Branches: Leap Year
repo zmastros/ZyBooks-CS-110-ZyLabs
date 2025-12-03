@@ -1,0 +1,24 @@
+// ZyBooks CS 110
+// 11.13 LAB - Branches: Leap Year
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 1712
+
+integer inputYear
+inputYear = Get next input
+
+if inputYear % 4 == 0
+   if inputYear % 100 == 0
+      if inputYear % 400 == 0
+         Put inputYear to output
+         Put " is a leap year." to output
+      else
+         Put inputYear to output
+         Put " is not a leap year." to output
+   else
+      Put inputYear to output
+      Put " is a leap year." to output
+else
+   Put inputYear to output
+   Put " is not a leap year." to output
