@@ -1,0 +1,42 @@
+// ZyBooks CS 110
+// 11.14 LAB: Branches: Interstate highway numbers
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 90
+
+integer highwayNumber
+integer primaryNumber
+
+highwayNumber = Get next input
+
+if highwayNumber < 1
+   Put highwayNumber to output
+   Put " is not a valid interstate highway number." to output
+elseif highwayNumber > 999
+   Put highwayNumber to output
+   Put " is not a valid interstate highway number." to output
+elseif highwayNumber <= 99
+   if highwayNumber > 0
+      if highwayNumber % 2 == 0
+         Put "The " to output
+         Put highwayNumber to output
+         Put " is primary, going east/west." to output
+      else
+         Put "The " to output
+         Put highwayNumber to output
+         Put " is primary, going north/south." to output
+else
+   primaryNumber = highwayNumber % 100
+   if primaryNumber % 2 == 0
+      Put "The " to output
+      Put highwayNumber to output
+      Put " is auxiliary, serving the " to output
+      Put primaryNumber to output
+      Put ", going east/west." to output
+   else
+      Put "The " to output
+      Put highwayNumber to output
+      Put " is auxiliary, serving the " to output
+      Put primaryNumber to output
+      Put ", going north/south." to output
