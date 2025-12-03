@@ -1,0 +1,36 @@
+// ZyBooks CS 110
+// 11.12 LAB - Branches: Remove gray from RGB
+// Coded in Coral
+// Written by zmastros / GitHub
+
+// Suggested input: 130 50 130
+
+integer red
+integer green
+integer blue
+
+integer smallestValue
+
+red = Get next input
+green = Get next input
+blue = Get next input
+
+smallestValue = red
+
+if green < smallestValue
+   smallestValue = green
+   
+if blue < smallestValue
+   smallestValue = blue
+   
+red = red - smallestValue
+green = green - smallestValue
+blue = blue - smallestValue
+
+Put red to output
+Put " " to output
+
+Put green to output
+Put " " to output
+
+Put blue to output
